@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    height: 600px;;
+    width: 600px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    
+}
+
+.big-container{
+    width: 700px;
+    height: 750px;
+    text-align: center;
+    margin: auto;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.left {
+    margin-top: 10px;
+}
+
+h1 {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.container > div{
+    width: 37.5px;
+    aspect-ratio: 1/1;
+    margin: -1px;
+    padding: 0;
+    border: 1px solid black;
+}

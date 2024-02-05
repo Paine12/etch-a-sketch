@@ -4,24 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <style>
-        .container {
-            display: flex;
-            align-items: stretch;
-            justify-content: stretch;
-            max-width: 960px;
-            max-height: 960px;
-            flex-wrap: wrap;
-        }
-
-        .container > {
-            flex-basis: 6.25%;
-        }
-    </style>
-    <h1>Etch-A-Sketch</h1>
-    <div class="container"></div>
+    <div class="big-container">
+        <h1>Etch-A-Sketch</h1>
+        <button class="clear left">Clear</button>
+        <div class="container"></div>
+    </div>
 </body>
 </html>
