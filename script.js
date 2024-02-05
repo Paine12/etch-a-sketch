@@ -27,17 +27,3 @@ function createDivs(){
         }
     }
 }
-
-function deleteDivs(){
-    let children = container.children;
-    children.forEach(child => {
-        container.removeChild(child);
-    });
-}
-
-createDivs();
-
-button.addEventListener("click", () => {
-    deleteDivs;
-    createDivs;
-})
