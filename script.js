@@ -27,3 +27,19 @@ function createDivs(){
         }
     }
 }
+
+function deleteDivs(){
+    let child = container.lastElementChild;
+    while (child) {
+        container.removeChild(child);
+        child = container.lastElementChild;
+    }
+}
+
+
+createDivs();
+
+button.addEventListener("click", () => {
+    deleteDivs();
+    createDivs();
+});
